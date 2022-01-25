@@ -1,7 +1,64 @@
-body {
-    background-color: #F5F5F5;
+.active{
+	background: white;
+    text-transform: uppercase;
+	text-align: center;
 }
 
-li{
-    background-color: pink;
+body {
+    font-family: Verdana, "Times New Roman";
+    background-color: #000000;
+    color: #FFF;
+    margin: 25px 25px 0 25px;
 }
+
+h1 {
+    font-size: 48px;
+    margin: auto;
+    padding: 15px;
+}
+
+
+/*Style the images*/
+img{
+    height: 200px;
+    width:auto;
+    border: 3px solid blue;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+/*Add borders around the main components and some
+space too*/
+header, nav, main, h1, footer{
+	border: 2px solid grey;
+	margin: 10px 0;
+}
+
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	background-color: #ECFF4D;
+	padding:10px;
+	width:25%;
+	border:1px solid black;
+	display: inline-block;
+	width: 20%;
+}
+
+
+
+/*Added this so the links stay the same color*/
+a:visited{color:#0000FF}
