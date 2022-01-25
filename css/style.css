@@ -79,4 +79,20 @@ div {
     border: 0 10px 3px 0 solid white;
 }
 
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 0 0;
+}
+
+footer {
+    background: #000000;
+    background: linear-gradient(#0000ff 25%, #0066ff 70%, #000000 100%);
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 10px 10px 0;
+}
+
 
