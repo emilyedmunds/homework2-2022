@@ -43,7 +43,7 @@ div {
 }
 
 .red {
-    background-color: #ff000f;
+    background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
     border-width: 0 0 3px 10px;
@@ -82,7 +82,7 @@ div {
 span {
     text-decoration: underline;
     text-transform: uppercase;
-    text-shadow: 0 0;
+    text-shadow: none;
 }
 
 footer {
@@ -92,6 +92,7 @@ footer {
 
 footer p {
     text-align: center;
+    font-size: 20px;
     padding: 10px 10px 10px 0;
 }
 
